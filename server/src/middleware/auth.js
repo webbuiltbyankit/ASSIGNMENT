@@ -168,11 +168,12 @@ export function setAuthCookie(res, user) {
   );
 
   const isProduction = env.isProduction;
+  const sameSite = isProduction ? (process.env.COOKIE_SAME_SITE || 'none') : 'lax';
 
   res.cookie(COOKIE_NAME, token, {
     httpOnly: true,
-    secure: isProduction, // HTTPS only in production
-    sameSite: isProduction ? 'strict' : 'lax',
+    secure: isProduction, // HTTPS required when sameSite is 'none'
+    sameSite,
     maxAge: env.SESSION_EXPIRY_DAYS * 24 * 60 * 60 * 1000,
     path: '/',
   });
@@ -184,10 +185,13 @@ export function setAuthCookie(res, user) {
  * Clears authentication cookie
  */
 export function clearAuthCookie(res) {
+  const isProduction = env.isProduction;
+  const sameSite = isProduction ? (process.env.COOKIE_SAME_SITE || 'none') : 'lax';
+
   res.clearCookie(COOKIE_NAME, {
     httpOnly: true,
-    secure: env.isProduction,
-    sameSite: env.isProduction ? 'strict' : 'lax',
+    secure: isProduction,
+    sameSite,
     path: '/',
   });
 }

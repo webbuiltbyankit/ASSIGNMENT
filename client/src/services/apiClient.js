@@ -35,7 +35,7 @@ export async function apiClient(endpoint, {
         ...defaultHeaders,
         ...headers,
       },
-      credentials: 'same-origin', // HttpOnly session cookies are transmitted automatically
+      credentials: 'include', // HttpOnly session cookies transmitted in both same-origin proxy and cross-origin deployment
       body: body instanceof FormData ? body : body ? JSON.stringify(body) : null,
       signal: controller.signal,
     });

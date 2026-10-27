@@ -30,16 +30,38 @@ export const helmetMiddleware = helmet({
 });
 
 /**
+ * Helper to determine whether an origin is allowed
+ */
+export function isAllowedOrigin(origin) {
+  if (!origin) return true;
+  const configuredOrigins = (env.FRONTEND_ORIGIN || '')
+    .split(',')
+    .map((o) => o.trim())
+    .filter(Boolean);
+
+  if (configuredOrigins.includes(origin)) return true;
+  if (origin.startsWith('http://localhost:') || origin.startsWith('http://127.0.0.1:')) return true;
+
+  // Allow Vercel preview and production domains
+  try {
+    const parsed = new URL(origin);
+    if (parsed.hostname.endsWith('.vercel.app')) return true;
+  } catch {
+    // Ignore invalid URL parse
+  }
+  return false;
+}
+
+/**
  * CORS Middleware
  */
 export const corsMiddleware = cors({
   origin: (origin, callback) => {
     // Allow requests with no origin (e.g. mobile apps, curl, or same-origin server proxy)
-    if (!origin) return callback(null, true);
-    if (origin === env.FRONTEND_ORIGIN || origin.startsWith('http://localhost:')) {
+    if (!origin || isAllowedOrigin(origin)) {
       return callback(null, true);
     }
-    return callback(new Error('Cross-Origin Request Blocked by CORS Policy'), false);
+    return callback(null, false);
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
@@ -78,10 +100,9 @@ export function csrfProtection(req, res, next) {
 
   // Check Origin or Referer header on state-changing requests
   const origin = req.headers.origin;
-  const referer = req.headers.referer;
 
   if (origin) {
-    if (origin === env.FRONTEND_ORIGIN || origin.startsWith('http://localhost:') || origin.startsWith('http://127.0.0.1:')) {
+    if (isAllowedOrigin(origin)) {
       return next();
     }
     logger.audit('CSRF_BLOCKED', { origin, target: req.originalUrl, outcome: 'REJECTED' });

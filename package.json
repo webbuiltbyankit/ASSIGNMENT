@@ -4,11 +4,16 @@
   "private": true,
   "description": "FORME — Full-Stack Clothing E-Commerce Storefront & Admin Application",
   "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
     "dev:client": "npm --prefix client run dev",
     "dev:server": "npm --prefix server run dev",
     "build:client": "npm --prefix client run build",
-    "build": "npm run build:client",
+    "build": "npm run build:client && node scripts/sync-dist.mjs",
+    "install:all": "npm --prefix client install && npm --prefix server install",
     "test:server": "npm --prefix server run test",
     "test": "npm run test:server && npm run media:validate",
     "media:validate": "node scripts/media/validate-manifest.mjs",

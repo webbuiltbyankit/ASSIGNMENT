@@ -1,0 +1,1358 @@
+{
+  "$schema": "./schemas/asset-manifest.schema.json",
+  "version": "1.0.0",
+  "brand": "FORME",
+  "totalTarget": 70,
+  "totalAssets": 70,
+  "fallback": {
+    "assetId": "forme-fallback-neutral",
+    "productSlug": null,
+    "role": "fallback",
+    "view": "none",
+    "sourceType": "svg-fallback",
+    "generator": "custom-vector",
+    "prompt": "Minimalist editorial silhouette with garment hanger and FORME branding",
+    "license": "FORME Proprietary Brand Asset",
+    "hash": "fallback-svg-v1",
+    "dimensions": {
+      "width": 800,
+      "height": 1000,
+      "aspectRatio": "4:5"
+    },
+    "localPath": "/fallback-image.svg",
+    "cloudinaryPublicId": null,
+    "deliveryUrl": "/fallback-image.svg"
+  },
+  "assets": [
+    {
+      "assetId": "hero-desktop-01",
+      "productSlug": null,
+      "role": "hero",
+      "view": "desktop",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Editorial adult model in minimalist ivory and sand linen, natural daylight",
+      "license": "FORME Proprietary",
+      "hash": "b0411a24d8503a81cae255112029c0cda75693a8edd8962515037bbd72f4624b",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "localPath": "/assets/campaign/forme-hero-desktop.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/campaign/forme-hero-desktop.jpg"
+    },
+    {
+      "assetId": "hero-mobile-01",
+      "productSlug": null,
+      "role": "hero",
+      "view": "mobile",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Vertical editorial fashion portrait of model in ivory overshirt and sand trousers",
+      "license": "FORME Proprietary",
+      "hash": "98e1f0248c167b7f15403fcc4eda8eeb42f6a19bc9b8ee3f13d4b4e1c374c08e",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "3:4"
+      },
+      "localPath": "/assets/campaign/forme-hero-mobile.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/campaign/forme-hero-mobile.jpg"
+    },
+    {
+      "assetId": "col-men-01",
+      "productSlug": null,
+      "role": "campaign",
+      "view": "editorial",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Men's collection editorial campaign in relaxed linen shirt and sand trousers",
+      "license": "FORME Proprietary",
+      "hash": "b621f3e6b025e95a5e6412d79a7083a47070040871368179676286e4b9e41f75",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "3:4"
+      },
+      "localPath": "/assets/campaign/forme-collection-men.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/campaign/forme-collection-men.jpg"
+    },
+    {
+      "assetId": "col-women-01",
+      "productSlug": null,
+      "role": "campaign",
+      "view": "editorial",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Women's collection editorial campaign in sand linen wrap dress",
+      "license": "FORME Proprietary",
+      "hash": "64dad8efd9ebb9676e3de0238f15629b7d7c56b71853f5107c7bf21d26e736df",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "3:4"
+      },
+      "localPath": "/assets/campaign/forme-collection-women.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/campaign/forme-collection-women.jpg"
+    },
+    {
+      "assetId": "promo-seasonal-01",
+      "productSlug": null,
+      "role": "campaign",
+      "view": "editorial",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Seasonal edit editorial campaign in warm ivory, sand, and taupe layers",
+      "license": "FORME Proprietary",
+      "hash": "e104c48c640c3a249f473450680c7507126e68d53904452c21458c1fa8e87620",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "3:4"
+      },
+      "localPath": "/assets/campaign/forme-promo-seasonal.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/campaign/forme-promo-seasonal.jpg"
+    },
+    {
+      "assetId": "promo-wardrobe-01",
+      "productSlug": null,
+      "role": "campaign",
+      "view": "editorial",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Everyday wardrobe capsule editorial portrait in sunlit architectural gallery",
+      "license": "FORME Proprietary",
+      "hash": "644ea78bb525f39f77b7aad074df14fc0fb7bba1f17a3bd0545c3d062f3a2db9",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "3:4"
+      },
+      "localPath": "/assets/campaign/forme-promo-wardrobe.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/campaign/forme-promo-wardrobe.jpg"
+    },
+    {
+      "assetId": "story-textile-01",
+      "productSlug": null,
+      "role": "story",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Tactile macro photography of raw organic linen and cotton weave",
+      "license": "FORME Proprietary",
+      "hash": "59fad44c9aa694c3524e604be2cb0cfdb4c867da42ec7c110ec654b0de46e204",
+      "dimensions": {
+        "width": 1200,
+        "height": 896,
+        "aspectRatio": "4:3"
+      },
+      "localPath": "/assets/story/forme-story-textile.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/story/forme-story-textile.jpg"
+    },
+    {
+      "assetId": "story-craft-01",
+      "productSlug": null,
+      "role": "story",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Atelier craftsmanship still life with horn buttons and tailoring shears",
+      "license": "FORME Proprietary",
+      "hash": "4824f5144d8e66944eb7a7657a845603db92e12f27ff294b977a70e315043b70",
+      "dimensions": {
+        "width": 1200,
+        "height": 896,
+        "aspectRatio": "4:3"
+      },
+      "localPath": "/assets/story/forme-story-craft.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/story/forme-story-craft.jpg"
+    },
+    {
+      "assetId": "story-folded-01",
+      "productSlug": null,
+      "role": "story",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Neatly folded linen and cotton wardrobe stack on minimalist oak surface",
+      "license": "FORME Proprietary",
+      "hash": "efe851b96058de65e77e0b493a8218d1b5617cb29c2a9fd081adaae5a4265196",
+      "dimensions": {
+        "width": 1200,
+        "height": 896,
+        "aspectRatio": "4:3"
+      },
+      "localPath": "/assets/story/forme-story-folded.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/story/forme-story-folded.jpg"
+    },
+    {
+      "assetId": "story-onbody-01",
+      "productSlug": null,
+      "role": "story",
+      "view": "editorial",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Candid editorial portrait of companions in relaxed natural linen attire",
+      "license": "FORME Proprietary",
+      "hash": "4863e63b8b0edf83ae22b56386ca9748e205898cba356299fa8f70f805ec0a60",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "3:4"
+      },
+      "localPath": "/assets/story/forme-story-onbody.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/story/forme-story-onbody.jpg"
+    },
+    {
+      "assetId": "men-relaxed-linen-shirt-ivory-front",
+      "productSlug": "men-relaxed-linen-shirt-ivory",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Relaxed Linen Camp Shirt in Warm Ivory - 100% French Washed Linen",
+      "license": "FORME Proprietary",
+      "hash": "1cfc2c16f3b40d5110cca3450bfb4755f6447269341cd4ddd56dcff5bae34948",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-relaxed-linen-shirt-ivory/men-relaxed-linen-shirt-ivory-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-relaxed-linen-shirt-ivory/men-relaxed-linen-shirt-ivory-front.jpg"
+    },
+    {
+      "assetId": "men-relaxed-linen-shirt-ivory-angle",
+      "productSlug": "men-relaxed-linen-shirt-ivory",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Relaxed Linen Camp Shirt in Warm Ivory",
+      "license": "FORME Proprietary",
+      "hash": "1f8382d8ab47ae9e9b20f7d5de4c10c57622ac5e591d14e0a00120f573c15b12",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-relaxed-linen-shirt-ivory/men-relaxed-linen-shirt-ivory-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-relaxed-linen-shirt-ivory/men-relaxed-linen-shirt-ivory-angle.jpg"
+    },
+    {
+      "assetId": "men-relaxed-linen-shirt-ivory-detail",
+      "productSlug": "men-relaxed-linen-shirt-ivory",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Relaxed Linen Camp Shirt - 100% French Washed Linen",
+      "license": "FORME Proprietary",
+      "hash": "7375e26ff7dfcf467be8dcb36ff7699ad691ed6cdac4d5bae820a5d6578d769a",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-relaxed-linen-shirt-ivory/men-relaxed-linen-shirt-ivory-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-relaxed-linen-shirt-ivory/men-relaxed-linen-shirt-ivory-detail.jpg"
+    },
+    {
+      "assetId": "men-heavyweight-pocket-tee-charcoal-front",
+      "productSlug": "men-heavyweight-pocket-tee-charcoal",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Heavyweight Cotton Pocket Tee in Faded Charcoal - 240 GSM Combed Organic Cotton",
+      "license": "FORME Proprietary",
+      "hash": "951dda7df14685e09b6d86869a6988d57c0cf65cfe9048b7b5b629ee57983390",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-heavyweight-pocket-tee-charcoal/men-heavyweight-pocket-tee-charcoal-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-heavyweight-pocket-tee-charcoal/men-heavyweight-pocket-tee-charcoal-front.jpg"
+    },
+    {
+      "assetId": "men-heavyweight-pocket-tee-charcoal-angle",
+      "productSlug": "men-heavyweight-pocket-tee-charcoal",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Heavyweight Cotton Pocket Tee in Faded Charcoal",
+      "license": "FORME Proprietary",
+      "hash": "dacb7636ae6672589517c7d794fe2424bf46c394e46655b85b8b59d6e27f1a9b",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-heavyweight-pocket-tee-charcoal/men-heavyweight-pocket-tee-charcoal-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-heavyweight-pocket-tee-charcoal/men-heavyweight-pocket-tee-charcoal-angle.jpg"
+    },
+    {
+      "assetId": "men-heavyweight-pocket-tee-charcoal-detail",
+      "productSlug": "men-heavyweight-pocket-tee-charcoal",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Heavyweight Cotton Pocket Tee - 240 GSM Combed Organic Cotton",
+      "license": "FORME Proprietary",
+      "hash": "91d83eadf7017d63889cc058e4970aec7b97672f5abed75f97b64feb46f73414",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-heavyweight-pocket-tee-charcoal/men-heavyweight-pocket-tee-charcoal-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-heavyweight-pocket-tee-charcoal/men-heavyweight-pocket-tee-charcoal-detail.jpg"
+    },
+    {
+      "assetId": "men-single-pleat-linen-trouser-sand-front",
+      "productSlug": "men-single-pleat-linen-trouser-sand",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Single Pleat Linen Trouser in Desert Sand - 60% Linen, 40% Cotton Twill",
+      "license": "FORME Proprietary",
+      "hash": "141f7616c2e01a20092edf2f9f120f107f5c042f2c79c3ff5bdf7c43fee228db",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-single-pleat-linen-trouser-sand/men-single-pleat-linen-trouser-sand-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-single-pleat-linen-trouser-sand/men-single-pleat-linen-trouser-sand-front.jpg"
+    },
+    {
+      "assetId": "men-single-pleat-linen-trouser-sand-angle",
+      "productSlug": "men-single-pleat-linen-trouser-sand",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Single Pleat Linen Trouser in Desert Sand",
+      "license": "FORME Proprietary",
+      "hash": "ef80c93559a14ec78d2a83ec3abcfac8467ef81f93cbeffb52013ed64d47a36f",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-single-pleat-linen-trouser-sand/men-single-pleat-linen-trouser-sand-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-single-pleat-linen-trouser-sand/men-single-pleat-linen-trouser-sand-angle.jpg"
+    },
+    {
+      "assetId": "men-single-pleat-linen-trouser-sand-detail",
+      "productSlug": "men-single-pleat-linen-trouser-sand",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Single Pleat Linen Trouser - 60% Linen, 40% Cotton Twill",
+      "license": "FORME Proprietary",
+      "hash": "b98afe8014d5d1e5521ea259f4e1dc403ea97f98ee31f493e2d71ac9a4b24410",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-single-pleat-linen-trouser-sand/men-single-pleat-linen-trouser-sand-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-single-pleat-linen-trouser-sand/men-single-pleat-linen-trouser-sand-detail.jpg"
+    },
+    {
+      "assetId": "men-selvedge-straight-jean-indigo-front",
+      "productSlug": "men-selvedge-straight-jean-indigo",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of 13oz Selvedge Straight Jean in Raw Indigo - 13.5oz Kuroki Selvedge Denim",
+      "license": "FORME Proprietary",
+      "hash": "fb661b753f344d6a0f88b2313bb54b7ec9a6d4382fdffb5c9ae1fa6b094be189",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-selvedge-straight-jean-indigo/men-selvedge-straight-jean-indigo-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-selvedge-straight-jean-indigo/men-selvedge-straight-jean-indigo-front.jpg"
+    },
+    {
+      "assetId": "men-selvedge-straight-jean-indigo-angle",
+      "productSlug": "men-selvedge-straight-jean-indigo",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of 13oz Selvedge Straight Jean in Raw Indigo",
+      "license": "FORME Proprietary",
+      "hash": "c1465e5e946fdec4b37f1a0a657908eae3ebbe8dcb318f1b9c9cfdb507c773d6",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-selvedge-straight-jean-indigo/men-selvedge-straight-jean-indigo-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-selvedge-straight-jean-indigo/men-selvedge-straight-jean-indigo-angle.jpg"
+    },
+    {
+      "assetId": "men-selvedge-straight-jean-indigo-detail",
+      "productSlug": "men-selvedge-straight-jean-indigo",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of 13oz Selvedge Straight Jean - 13.5oz Kuroki Selvedge Denim",
+      "license": "FORME Proprietary",
+      "hash": "44592a9476174c6494097ee963bec2739b0fc1a10e0374ee1c497d46db344c3a",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-selvedge-straight-jean-indigo/men-selvedge-straight-jean-indigo-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-selvedge-straight-jean-indigo/men-selvedge-straight-jean-indigo-detail.jpg"
+    },
+    {
+      "assetId": "men-canvas-chore-jacket-taupe-front",
+      "productSlug": "men-canvas-chore-jacket-taupe",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Washed Canvas Chore Jacket in Warm Taupe - 320 GSM Cotton Canvas",
+      "license": "FORME Proprietary",
+      "hash": "795370ac40e78244b24595dbe467b1bbda5bda28d8b42172c54893e955595dcd",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-canvas-chore-jacket-taupe/men-canvas-chore-jacket-taupe-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-canvas-chore-jacket-taupe/men-canvas-chore-jacket-taupe-front.jpg"
+    },
+    {
+      "assetId": "men-canvas-chore-jacket-taupe-angle",
+      "productSlug": "men-canvas-chore-jacket-taupe",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Washed Canvas Chore Jacket in Warm Taupe",
+      "license": "FORME Proprietary",
+      "hash": "d0f06008e06f57756e7c96401ae8934db85ee900c7e7cc7e20b852ccae0131d3",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-canvas-chore-jacket-taupe/men-canvas-chore-jacket-taupe-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-canvas-chore-jacket-taupe/men-canvas-chore-jacket-taupe-angle.jpg"
+    },
+    {
+      "assetId": "men-canvas-chore-jacket-taupe-detail",
+      "productSlug": "men-canvas-chore-jacket-taupe",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Washed Canvas Chore Jacket - 320 GSM Cotton Canvas",
+      "license": "FORME Proprietary",
+      "hash": "3e6dced1c4ef997e9bacc41880fff523e6b7899b81f414ec957cdfcc03cc7368",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-canvas-chore-jacket-taupe/men-canvas-chore-jacket-taupe-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-canvas-chore-jacket-taupe/men-canvas-chore-jacket-taupe-detail.jpg"
+    },
+    {
+      "assetId": "men-ribbed-merino-polo-sand-front",
+      "productSlug": "men-ribbed-merino-polo-sand",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Fine Merino Knit Polo in Pale Sand - 100% Extra-Fine Merino Wool",
+      "license": "FORME Proprietary",
+      "hash": "1cfc2c16f3b40d5110cca3450bfb4755f6447269341cd4ddd56dcff5bae34948",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-ribbed-merino-polo-sand/men-ribbed-merino-polo-sand-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-ribbed-merino-polo-sand/men-ribbed-merino-polo-sand-front.jpg"
+    },
+    {
+      "assetId": "men-ribbed-merino-polo-sand-angle",
+      "productSlug": "men-ribbed-merino-polo-sand",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Fine Merino Knit Polo in Pale Sand",
+      "license": "FORME Proprietary",
+      "hash": "1f8382d8ab47ae9e9b20f7d5de4c10c57622ac5e591d14e0a00120f573c15b12",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-ribbed-merino-polo-sand/men-ribbed-merino-polo-sand-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-ribbed-merino-polo-sand/men-ribbed-merino-polo-sand-angle.jpg"
+    },
+    {
+      "assetId": "men-ribbed-merino-polo-sand-detail",
+      "productSlug": "men-ribbed-merino-polo-sand",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Fine Merino Knit Polo - 100% Extra-Fine Merino Wool",
+      "license": "FORME Proprietary",
+      "hash": "7375e26ff7dfcf467be8dcb36ff7699ad691ed6cdac4d5bae820a5d6578d769a",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-ribbed-merino-polo-sand/men-ribbed-merino-polo-sand-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-ribbed-merino-polo-sand/men-ribbed-merino-polo-sand-detail.jpg"
+    },
+    {
+      "assetId": "men-boxy-crewneck-tee-bone-front",
+      "productSlug": "men-boxy-crewneck-tee-bone",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Boxy Cut Organic Crewneck in Bone White - 210 GSM Single Jersey Cotton",
+      "license": "FORME Proprietary",
+      "hash": "951dda7df14685e09b6d86869a6988d57c0cf65cfe9048b7b5b629ee57983390",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-boxy-crewneck-tee-bone/men-boxy-crewneck-tee-bone-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-boxy-crewneck-tee-bone/men-boxy-crewneck-tee-bone-front.jpg"
+    },
+    {
+      "assetId": "men-boxy-crewneck-tee-bone-angle",
+      "productSlug": "men-boxy-crewneck-tee-bone",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Boxy Cut Organic Crewneck in Bone White",
+      "license": "FORME Proprietary",
+      "hash": "dacb7636ae6672589517c7d794fe2424bf46c394e46655b85b8b59d6e27f1a9b",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-boxy-crewneck-tee-bone/men-boxy-crewneck-tee-bone-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-boxy-crewneck-tee-bone/men-boxy-crewneck-tee-bone-angle.jpg"
+    },
+    {
+      "assetId": "men-boxy-crewneck-tee-bone-detail",
+      "productSlug": "men-boxy-crewneck-tee-bone",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Boxy Cut Organic Crewneck - 210 GSM Single Jersey Cotton",
+      "license": "FORME Proprietary",
+      "hash": "91d83eadf7017d63889cc058e4970aec7b97672f5abed75f97b64feb46f73414",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-boxy-crewneck-tee-bone/men-boxy-crewneck-tee-bone-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-boxy-crewneck-tee-bone/men-boxy-crewneck-tee-bone-detail.jpg"
+    },
+    {
+      "assetId": "men-relaxed-chino-short-charcoal-front",
+      "productSlug": "men-relaxed-chino-short-charcoal",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Everyday Relaxed Chino Short in Charcoal Black - 100% Crisp Cotton Twill",
+      "license": "FORME Proprietary",
+      "hash": "141f7616c2e01a20092edf2f9f120f107f5c042f2c79c3ff5bdf7c43fee228db",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-relaxed-chino-short-charcoal/men-relaxed-chino-short-charcoal-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-relaxed-chino-short-charcoal/men-relaxed-chino-short-charcoal-front.jpg"
+    },
+    {
+      "assetId": "men-relaxed-chino-short-charcoal-angle",
+      "productSlug": "men-relaxed-chino-short-charcoal",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Everyday Relaxed Chino Short in Charcoal Black",
+      "license": "FORME Proprietary",
+      "hash": "ef80c93559a14ec78d2a83ec3abcfac8467ef81f93cbeffb52013ed64d47a36f",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-relaxed-chino-short-charcoal/men-relaxed-chino-short-charcoal-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-relaxed-chino-short-charcoal/men-relaxed-chino-short-charcoal-angle.jpg"
+    },
+    {
+      "assetId": "men-relaxed-chino-short-charcoal-detail",
+      "productSlug": "men-relaxed-chino-short-charcoal",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Everyday Relaxed Chino Short - 100% Crisp Cotton Twill",
+      "license": "FORME Proprietary",
+      "hash": "b98afe8014d5d1e5521ea259f4e1dc403ea97f98ee31f493e2d71ac9a4b24410",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-relaxed-chino-short-charcoal/men-relaxed-chino-short-charcoal-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-relaxed-chino-short-charcoal/men-relaxed-chino-short-charcoal-detail.jpg"
+    },
+    {
+      "assetId": "men-structured-denim-overshirt-clay-front",
+      "productSlug": "men-structured-denim-overshirt-clay",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Structured Denim Overshirt in Sunwashed Clay - 11oz Washed Cotton Bull Denim",
+      "license": "FORME Proprietary",
+      "hash": "fb661b753f344d6a0f88b2313bb54b7ec9a6d4382fdffb5c9ae1fa6b094be189",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-structured-denim-overshirt-clay/men-structured-denim-overshirt-clay-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-structured-denim-overshirt-clay/men-structured-denim-overshirt-clay-front.jpg"
+    },
+    {
+      "assetId": "men-structured-denim-overshirt-clay-angle",
+      "productSlug": "men-structured-denim-overshirt-clay",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Structured Denim Overshirt in Sunwashed Clay",
+      "license": "FORME Proprietary",
+      "hash": "c1465e5e946fdec4b37f1a0a657908eae3ebbe8dcb318f1b9c9cfdb507c773d6",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-structured-denim-overshirt-clay/men-structured-denim-overshirt-clay-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-structured-denim-overshirt-clay/men-structured-denim-overshirt-clay-angle.jpg"
+    },
+    {
+      "assetId": "men-structured-denim-overshirt-clay-detail",
+      "productSlug": "men-structured-denim-overshirt-clay",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Structured Denim Overshirt - 11oz Washed Cotton Bull Denim",
+      "license": "FORME Proprietary",
+      "hash": "44592a9476174c6494097ee963bec2739b0fc1a10e0374ee1c497d46db344c3a",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-structured-denim-overshirt-clay/men-structured-denim-overshirt-clay-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-structured-denim-overshirt-clay/men-structured-denim-overshirt-clay-detail.jpg"
+    },
+    {
+      "assetId": "men-linen-mac-coat-sand-front",
+      "productSlug": "men-linen-mac-coat-sand",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Minimalist Linen Mac Coat in Oatmeal Sand - Heavy Weight Irish Linen Blend",
+      "license": "FORME Proprietary",
+      "hash": "795370ac40e78244b24595dbe467b1bbda5bda28d8b42172c54893e955595dcd",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-linen-mac-coat-sand/men-linen-mac-coat-sand-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-linen-mac-coat-sand/men-linen-mac-coat-sand-front.jpg"
+    },
+    {
+      "assetId": "men-linen-mac-coat-sand-angle",
+      "productSlug": "men-linen-mac-coat-sand",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Minimalist Linen Mac Coat in Oatmeal Sand",
+      "license": "FORME Proprietary",
+      "hash": "d0f06008e06f57756e7c96401ae8934db85ee900c7e7cc7e20b852ccae0131d3",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-linen-mac-coat-sand/men-linen-mac-coat-sand-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-linen-mac-coat-sand/men-linen-mac-coat-sand-angle.jpg"
+    },
+    {
+      "assetId": "men-linen-mac-coat-sand-detail",
+      "productSlug": "men-linen-mac-coat-sand",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Minimalist Linen Mac Coat - Heavy Weight Irish Linen Blend",
+      "license": "FORME Proprietary",
+      "hash": "3e6dced1c4ef997e9bacc41880fff523e6b7899b81f414ec957cdfcc03cc7368",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/men-linen-mac-coat-sand/men-linen-mac-coat-sand-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/men-linen-mac-coat-sand/men-linen-mac-coat-sand-detail.jpg"
+    },
+    {
+      "assetId": "women-tiered-linen-midi-dress-ivory-front",
+      "productSlug": "women-tiered-linen-midi-dress-ivory",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Tiered Linen Midi Dress in Warm Ivory - 100% Washed European Linen",
+      "license": "FORME Proprietary",
+      "hash": "7bd7601c9a44749dcdbae6184ccb78bddb1e751a8903a6668ce716e3329571c2",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-tiered-linen-midi-dress-ivory/women-tiered-linen-midi-dress-ivory-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-tiered-linen-midi-dress-ivory/women-tiered-linen-midi-dress-ivory-front.jpg"
+    },
+    {
+      "assetId": "women-tiered-linen-midi-dress-ivory-angle",
+      "productSlug": "women-tiered-linen-midi-dress-ivory",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Tiered Linen Midi Dress in Warm Ivory",
+      "license": "FORME Proprietary",
+      "hash": "f55a173799e386d01ec27b2a48bb26a3b93295ddf2e235d4dd5530ddafb98166",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-tiered-linen-midi-dress-ivory/women-tiered-linen-midi-dress-ivory-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-tiered-linen-midi-dress-ivory/women-tiered-linen-midi-dress-ivory-angle.jpg"
+    },
+    {
+      "assetId": "women-tiered-linen-midi-dress-ivory-detail",
+      "productSlug": "women-tiered-linen-midi-dress-ivory",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Tiered Linen Midi Dress - 100% Washed European Linen",
+      "license": "FORME Proprietary",
+      "hash": "aa5e19ef919cc6ba71040ed57d604026695f85fa2e2df764bc332a5a22811e83",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-tiered-linen-midi-dress-ivory/women-tiered-linen-midi-dress-ivory-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-tiered-linen-midi-dress-ivory/women-tiered-linen-midi-dress-ivory-detail.jpg"
+    },
+    {
+      "assetId": "women-crisp-poplin-oversized-shirt-sand-front",
+      "productSlug": "women-crisp-poplin-oversized-shirt-sand",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Crisp Poplin Oversized Shirt in Alabaster Sand - 100% Giza Cotton Poplin",
+      "license": "FORME Proprietary",
+      "hash": "1593f89fd4cf1e630796b67a547ce4556d55ac418fc3ad95559cc477004c4450",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-crisp-poplin-oversized-shirt-sand/women-crisp-poplin-oversized-shirt-sand-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-crisp-poplin-oversized-shirt-sand/women-crisp-poplin-oversized-shirt-sand-front.jpg"
+    },
+    {
+      "assetId": "women-crisp-poplin-oversized-shirt-sand-angle",
+      "productSlug": "women-crisp-poplin-oversized-shirt-sand",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Crisp Poplin Oversized Shirt in Alabaster Sand",
+      "license": "FORME Proprietary",
+      "hash": "b5f50837966c6177baa4535d2c62fcb0dee43b491c027246682cbf8f7756f18e",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-crisp-poplin-oversized-shirt-sand/women-crisp-poplin-oversized-shirt-sand-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-crisp-poplin-oversized-shirt-sand/women-crisp-poplin-oversized-shirt-sand-angle.jpg"
+    },
+    {
+      "assetId": "women-crisp-poplin-oversized-shirt-sand-detail",
+      "productSlug": "women-crisp-poplin-oversized-shirt-sand",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Crisp Poplin Oversized Shirt - 100% Giza Cotton Poplin",
+      "license": "FORME Proprietary",
+      "hash": "ff736c86808d6846385ec517e4eba6ade2b12a2a0f3ad2f11a4ed46ee29ef4d0",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-crisp-poplin-oversized-shirt-sand/women-crisp-poplin-oversized-shirt-sand-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-crisp-poplin-oversized-shirt-sand/women-crisp-poplin-oversized-shirt-sand-detail.jpg"
+    },
+    {
+      "assetId": "women-wide-leg-pleated-trouser-taupe-front",
+      "productSlug": "women-wide-leg-pleated-trouser-taupe",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Wide-Leg Pleated Trouser in Smoked Taupe - Tencel and Linen Blend",
+      "license": "FORME Proprietary",
+      "hash": "141f7616c2e01a20092edf2f9f120f107f5c042f2c79c3ff5bdf7c43fee228db",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-wide-leg-pleated-trouser-taupe/women-wide-leg-pleated-trouser-taupe-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-wide-leg-pleated-trouser-taupe/women-wide-leg-pleated-trouser-taupe-front.jpg"
+    },
+    {
+      "assetId": "women-wide-leg-pleated-trouser-taupe-angle",
+      "productSlug": "women-wide-leg-pleated-trouser-taupe",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Wide-Leg Pleated Trouser in Smoked Taupe",
+      "license": "FORME Proprietary",
+      "hash": "ef80c93559a14ec78d2a83ec3abcfac8467ef81f93cbeffb52013ed64d47a36f",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-wide-leg-pleated-trouser-taupe/women-wide-leg-pleated-trouser-taupe-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-wide-leg-pleated-trouser-taupe/women-wide-leg-pleated-trouser-taupe-angle.jpg"
+    },
+    {
+      "assetId": "women-wide-leg-pleated-trouser-taupe-detail",
+      "productSlug": "women-wide-leg-pleated-trouser-taupe",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Wide-Leg Pleated Trouser - Tencel and Linen Blend",
+      "license": "FORME Proprietary",
+      "hash": "b98afe8014d5d1e5521ea259f4e1dc403ea97f98ee31f493e2d71ac9a4b24410",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-wide-leg-pleated-trouser-taupe/women-wide-leg-pleated-trouser-taupe-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-wide-leg-pleated-trouser-taupe/women-wide-leg-pleated-trouser-taupe-detail.jpg"
+    },
+    {
+      "assetId": "women-ribbed-boatneck-tee-charcoal-front",
+      "productSlug": "women-ribbed-boatneck-tee-charcoal",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Ribbed Cotton Boatneck Tee in Deep Charcoal - 95% Organic Cotton, 5% Elastane",
+      "license": "FORME Proprietary",
+      "hash": "951dda7df14685e09b6d86869a6988d57c0cf65cfe9048b7b5b629ee57983390",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-ribbed-boatneck-tee-charcoal/women-ribbed-boatneck-tee-charcoal-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-ribbed-boatneck-tee-charcoal/women-ribbed-boatneck-tee-charcoal-front.jpg"
+    },
+    {
+      "assetId": "women-ribbed-boatneck-tee-charcoal-angle",
+      "productSlug": "women-ribbed-boatneck-tee-charcoal",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Ribbed Cotton Boatneck Tee in Deep Charcoal",
+      "license": "FORME Proprietary",
+      "hash": "dacb7636ae6672589517c7d794fe2424bf46c394e46655b85b8b59d6e27f1a9b",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-ribbed-boatneck-tee-charcoal/women-ribbed-boatneck-tee-charcoal-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-ribbed-boatneck-tee-charcoal/women-ribbed-boatneck-tee-charcoal-angle.jpg"
+    },
+    {
+      "assetId": "women-ribbed-boatneck-tee-charcoal-detail",
+      "productSlug": "women-ribbed-boatneck-tee-charcoal",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Ribbed Cotton Boatneck Tee - 95% Organic Cotton, 5% Elastane",
+      "license": "FORME Proprietary",
+      "hash": "91d83eadf7017d63889cc058e4970aec7b97672f5abed75f97b64feb46f73414",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-ribbed-boatneck-tee-charcoal/women-ribbed-boatneck-tee-charcoal-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-ribbed-boatneck-tee-charcoal/women-ribbed-boatneck-tee-charcoal-detail.jpg"
+    },
+    {
+      "assetId": "women-wrap-linen-shirt-dress-sand-front",
+      "productSlug": "women-wrap-linen-shirt-dress-sand",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Wrap Linen Shirt Dress in Raw Sand - 100% Medium-Weight Linen",
+      "license": "FORME Proprietary",
+      "hash": "7bd7601c9a44749dcdbae6184ccb78bddb1e751a8903a6668ce716e3329571c2",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-wrap-linen-shirt-dress-sand/women-wrap-linen-shirt-dress-sand-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-wrap-linen-shirt-dress-sand/women-wrap-linen-shirt-dress-sand-front.jpg"
+    },
+    {
+      "assetId": "women-wrap-linen-shirt-dress-sand-angle",
+      "productSlug": "women-wrap-linen-shirt-dress-sand",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Wrap Linen Shirt Dress in Raw Sand",
+      "license": "FORME Proprietary",
+      "hash": "f55a173799e386d01ec27b2a48bb26a3b93295ddf2e235d4dd5530ddafb98166",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-wrap-linen-shirt-dress-sand/women-wrap-linen-shirt-dress-sand-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-wrap-linen-shirt-dress-sand/women-wrap-linen-shirt-dress-sand-angle.jpg"
+    },
+    {
+      "assetId": "women-wrap-linen-shirt-dress-sand-detail",
+      "productSlug": "women-wrap-linen-shirt-dress-sand",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Wrap Linen Shirt Dress - 100% Medium-Weight Linen",
+      "license": "FORME Proprietary",
+      "hash": "aa5e19ef919cc6ba71040ed57d604026695f85fa2e2df764bc332a5a22811e83",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-wrap-linen-shirt-dress-sand/women-wrap-linen-shirt-dress-sand-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-wrap-linen-shirt-dress-sand/women-wrap-linen-shirt-dress-sand-detail.jpg"
+    },
+    {
+      "assetId": "women-high-rise-straight-jean-ecru-front",
+      "productSlug": "women-high-rise-straight-jean-ecru",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of High-Rise Straight Jean in Natural Ecru - 12oz Undyed Cotton Denim",
+      "license": "FORME Proprietary",
+      "hash": "fb661b753f344d6a0f88b2313bb54b7ec9a6d4382fdffb5c9ae1fa6b094be189",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-high-rise-straight-jean-ecru/women-high-rise-straight-jean-ecru-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-high-rise-straight-jean-ecru/women-high-rise-straight-jean-ecru-front.jpg"
+    },
+    {
+      "assetId": "women-high-rise-straight-jean-ecru-angle",
+      "productSlug": "women-high-rise-straight-jean-ecru",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of High-Rise Straight Jean in Natural Ecru",
+      "license": "FORME Proprietary",
+      "hash": "c1465e5e946fdec4b37f1a0a657908eae3ebbe8dcb318f1b9c9cfdb507c773d6",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-high-rise-straight-jean-ecru/women-high-rise-straight-jean-ecru-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-high-rise-straight-jean-ecru/women-high-rise-straight-jean-ecru-angle.jpg"
+    },
+    {
+      "assetId": "women-high-rise-straight-jean-ecru-detail",
+      "productSlug": "women-high-rise-straight-jean-ecru",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of High-Rise Straight Jean - 12oz Undyed Cotton Denim",
+      "license": "FORME Proprietary",
+      "hash": "44592a9476174c6494097ee963bec2739b0fc1a10e0374ee1c497d46db344c3a",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-high-rise-straight-jean-ecru/women-high-rise-straight-jean-ecru-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-high-rise-straight-jean-ecru/women-high-rise-straight-jean-ecru-detail.jpg"
+    },
+    {
+      "assetId": "women-boiled-wool-cropped-jacket-charcoal-front",
+      "productSlug": "women-boiled-wool-cropped-jacket-charcoal",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Boiled Wool Boxy Jacket in Charcoal Melange - 100% Pure Boiled Wool",
+      "license": "FORME Proprietary",
+      "hash": "795370ac40e78244b24595dbe467b1bbda5bda28d8b42172c54893e955595dcd",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-boiled-wool-cropped-jacket-charcoal/women-boiled-wool-cropped-jacket-charcoal-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-boiled-wool-cropped-jacket-charcoal/women-boiled-wool-cropped-jacket-charcoal-front.jpg"
+    },
+    {
+      "assetId": "women-boiled-wool-cropped-jacket-charcoal-angle",
+      "productSlug": "women-boiled-wool-cropped-jacket-charcoal",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Boiled Wool Boxy Jacket in Charcoal Melange",
+      "license": "FORME Proprietary",
+      "hash": "d0f06008e06f57756e7c96401ae8934db85ee900c7e7cc7e20b852ccae0131d3",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-boiled-wool-cropped-jacket-charcoal/women-boiled-wool-cropped-jacket-charcoal-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-boiled-wool-cropped-jacket-charcoal/women-boiled-wool-cropped-jacket-charcoal-angle.jpg"
+    },
+    {
+      "assetId": "women-boiled-wool-cropped-jacket-charcoal-detail",
+      "productSlug": "women-boiled-wool-cropped-jacket-charcoal",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Boiled Wool Boxy Jacket - 100% Pure Boiled Wool",
+      "license": "FORME Proprietary",
+      "hash": "3e6dced1c4ef997e9bacc41880fff523e6b7899b81f414ec957cdfcc03cc7368",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-boiled-wool-cropped-jacket-charcoal/women-boiled-wool-cropped-jacket-charcoal-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-boiled-wool-cropped-jacket-charcoal/women-boiled-wool-cropped-jacket-charcoal-detail.jpg"
+    },
+    {
+      "assetId": "women-box-cut-linen-tank-ivory-front",
+      "productSlug": "women-box-cut-linen-tank-ivory",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Structured Linen Tank Top in Ivory White - 100% Crisp Linen Weave",
+      "license": "FORME Proprietary",
+      "hash": "951dda7df14685e09b6d86869a6988d57c0cf65cfe9048b7b5b629ee57983390",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-box-cut-linen-tank-ivory/women-box-cut-linen-tank-ivory-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-box-cut-linen-tank-ivory/women-box-cut-linen-tank-ivory-front.jpg"
+    },
+    {
+      "assetId": "women-box-cut-linen-tank-ivory-angle",
+      "productSlug": "women-box-cut-linen-tank-ivory",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Structured Linen Tank Top in Ivory White",
+      "license": "FORME Proprietary",
+      "hash": "dacb7636ae6672589517c7d794fe2424bf46c394e46655b85b8b59d6e27f1a9b",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-box-cut-linen-tank-ivory/women-box-cut-linen-tank-ivory-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-box-cut-linen-tank-ivory/women-box-cut-linen-tank-ivory-angle.jpg"
+    },
+    {
+      "assetId": "women-box-cut-linen-tank-ivory-detail",
+      "productSlug": "women-box-cut-linen-tank-ivory",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Structured Linen Tank Top - 100% Crisp Linen Weave",
+      "license": "FORME Proprietary",
+      "hash": "91d83eadf7017d63889cc058e4970aec7b97672f5abed75f97b64feb46f73414",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-box-cut-linen-tank-ivory/women-box-cut-linen-tank-ivory-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-box-cut-linen-tank-ivory/women-box-cut-linen-tank-ivory-detail.jpg"
+    },
+    {
+      "assetId": "women-drawstring-linen-pant-bone-front",
+      "productSlug": "women-drawstring-linen-pant-bone",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Drawstring Pull-On Linen Pant in Bone - 100% Washed Linen",
+      "license": "FORME Proprietary",
+      "hash": "141f7616c2e01a20092edf2f9f120f107f5c042f2c79c3ff5bdf7c43fee228db",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-drawstring-linen-pant-bone/women-drawstring-linen-pant-bone-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-drawstring-linen-pant-bone/women-drawstring-linen-pant-bone-front.jpg"
+    },
+    {
+      "assetId": "women-drawstring-linen-pant-bone-angle",
+      "productSlug": "women-drawstring-linen-pant-bone",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Drawstring Pull-On Linen Pant in Bone",
+      "license": "FORME Proprietary",
+      "hash": "ef80c93559a14ec78d2a83ec3abcfac8467ef81f93cbeffb52013ed64d47a36f",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-drawstring-linen-pant-bone/women-drawstring-linen-pant-bone-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-drawstring-linen-pant-bone/women-drawstring-linen-pant-bone-angle.jpg"
+    },
+    {
+      "assetId": "women-drawstring-linen-pant-bone-detail",
+      "productSlug": "women-drawstring-linen-pant-bone",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Drawstring Pull-On Linen Pant - 100% Washed Linen",
+      "license": "FORME Proprietary",
+      "hash": "b98afe8014d5d1e5521ea259f4e1dc403ea97f98ee31f493e2d71ac9a4b24410",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-drawstring-linen-pant-bone/women-drawstring-linen-pant-bone-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-drawstring-linen-pant-bone/women-drawstring-linen-pant-bone-detail.jpg"
+    },
+    {
+      "assetId": "women-unlined-linen-trench-sand-front",
+      "productSlug": "women-unlined-linen-trench-sand",
+      "role": "catalog",
+      "view": "front",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Frontal catalog view of Draped Linen Trench Coat in Sand Dune - 100% Heavy European Linen",
+      "license": "FORME Proprietary",
+      "hash": "e0a67add7ef47dfe7ea6186c17b946679487344323bc85d728496030c33065b7",
+      "dimensions": {
+        "width": 896,
+        "height": 1200,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-unlined-linen-trench-sand/women-unlined-linen-trench-sand-front.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-unlined-linen-trench-sand/women-unlined-linen-trench-sand-front.jpg"
+    },
+    {
+      "assetId": "women-unlined-linen-trench-sand-angle",
+      "productSlug": "women-unlined-linen-trench-sand",
+      "role": "catalog",
+      "view": "angle",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Side and drape three-quarter angle view of Draped Linen Trench Coat in Sand Dune",
+      "license": "FORME Proprietary",
+      "hash": "283bf4e023836cc76dd7fdff1665e3e8f6a970a8acdcd7508c5d7a6658c43b98",
+      "dimensions": {
+        "width": 762,
+        "height": 1080,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-unlined-linen-trench-sand/women-unlined-linen-trench-sand-angle.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-unlined-linen-trench-sand/women-unlined-linen-trench-sand-angle.jpg"
+    },
+    {
+      "assetId": "women-unlined-linen-trench-sand-detail",
+      "productSlug": "women-unlined-linen-trench-sand",
+      "role": "catalog",
+      "view": "detail",
+      "sourceType": "ai-generated",
+      "generator": "Gemini 3.8 Flash / Imagen 3",
+      "prompt": "Macro texture and stitch detail of Draped Linen Trench Coat - 100% Heavy European Linen",
+      "license": "FORME Proprietary",
+      "hash": "db5368667608ccfa2c424ccdd27f5baac6a8b050b08cb8a65e50d070e6ad3e68",
+      "dimensions": {
+        "width": 404,
+        "height": 540,
+        "aspectRatio": "4:5"
+      },
+      "localPath": "/assets/catalog/women-unlined-linen-trench-sand/women-unlined-linen-trench-sand-detail.jpg",
+      "cloudinaryPublicId": null,
+      "deliveryUrl": "/assets/catalog/women-unlined-linen-trench-sand/women-unlined-linen-trench-sand-detail.jpg"
+    }
+  ]
+}

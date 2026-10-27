@@ -1,0 +1,285 @@
+/* FORME Product Details Page Styles */
+
+.forme-pdp {
+  padding-bottom: var(--space-4xl);
+}
+
+.forme-pdp__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2xl);
+  margin-top: var(--space-md);
+}
+
+@media (min-width: 960px) {
+  .forme-pdp__layout {
+    grid-template-columns: 1.15fr 1fr;
+    gap: var(--space-4xl);
+    align-items: start;
+  }
+}
+
+/* ACCESSIBLE PRODUCT GALLERY (Prompt 15) */
+.forme-gallery {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .forme-gallery {
+    flex-direction: row;
+    gap: var(--space-md);
+  }
+}
+
+.forme-gallery__thumbs {
+  display: flex;
+  gap: var(--space-sm);
+  overflow-x: auto;
+  padding-bottom: var(--space-xs);
+}
+
+@media (min-width: 768px) {
+  .forme-gallery__thumbs {
+    flex-direction: column;
+    overflow-x: visible;
+    width: 80px;
+    flex-shrink: 0;
+  }
+}
+
+.forme-gallery__thumb-btn {
+  width: 72px;
+  height: 90px;
+  padding: 0;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all var(--transition-fast);
+}
+
+@media (min-width: 768px) {
+  .forme-gallery__thumb-btn {
+    width: 100%;
+    height: 100px;
+  }
+}
+
+.forme-gallery__thumb-btn:hover {
+  opacity: 1;
+  border-color: var(--color-sand);
+}
+
+.forme-gallery__thumb-btn--active {
+  opacity: 1;
+  border: 2px solid var(--color-charcoal);
+}
+
+.forme-gallery__thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.forme-gallery__main {
+  flex: 1;
+  position: relative;
+  aspect-ratio: 4 / 5;
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-xs);
+  overflow: hidden;
+}
+
+.forme-gallery__main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity var(--transition-fast);
+}
+
+/* PRODUCT DETAILS INFO */
+.forme-pdp-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.forme-pdp-info__header {
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: var(--space-md);
+}
+
+.forme-pdp-info__category {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-taupe);
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+.forme-pdp-info__title {
+  font-family: var(--font-serif);
+  font-size: var(--text-3xl);
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.forme-pdp-info__price-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-top: var(--space-xs);
+}
+
+.forme-pdp-info__desc {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* SIZE SELECTOR & CONTROLS (Prompt 16) */
+.forme-size-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.forme-size-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forme-size-header__label {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.forme-size-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-xs);
+}
+
+.forme-size-btn {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xs);
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.forme-size-btn:hover:not(:disabled) {
+  border-color: var(--color-charcoal);
+  background-color: var(--bg-secondary);
+}
+
+.forme-size-btn--selected {
+  background-color: var(--color-charcoal) !important;
+  color: var(--color-warm-ivory) !important;
+  border-color: var(--color-charcoal) !important;
+}
+
+.forme-size-btn:disabled {
+  opacity: 0.35;
+  background-color: var(--bg-tertiary);
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
+
+/* QUANTITY CONTROLS */
+.forme-quantity-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  margin-top: var(--space-xs);
+}
+
+.forme-qty-picker {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xs);
+  background-color: var(--bg-card);
+  height: 48px;
+}
+
+.forme-qty-picker__btn {
+  width: 44px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.forme-qty-picker__btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.forme-qty-picker__val {
+  min-width: 36px;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+/* ACCORDIONS FOR FABRIC, FIT & CARE */
+.forme-accordion {
+  border-top: 1px solid var(--border-light);
+  margin-top: var(--space-md);
+}
+
+.forme-accordion-item {
+  border-bottom: 1px solid var(--border-light);
+}
+
+.forme-accordion-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: left;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.forme-accordion-content {
+  padding-bottom: var(--space-md);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}

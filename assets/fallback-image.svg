@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="fallbackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F2EC" />
+      <stop offset="100%" stop-color="#EBE5D8" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#fallbackGrad)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#D8CBB8" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <g transform="translate(400, 480)" text-anchor="middle">
+    <!-- Stylized garment coat hanger icon -->
+    <path d="M-60,30 L60,30 C50,20 20,-10 0,-10 C-20,-10 -50,20 -60,30 Z M0,-10 C0,-35 25,-40 25,-55 C25,-70 5,-75 -5,-65 C-12,-58 -10,-45 -10,-45" 
+          fill="none" stroke="#8A7968" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text y="90" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="600" fill="#8A7968" letter-spacing="3">FORME</text>
+    <text y="115" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="400" fill="#A39686" letter-spacing="1.5">IMAGE PENDING</text>
+  </g>
+</svg>

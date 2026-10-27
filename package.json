@@ -1,0 +1,23 @@
+{
+  "name": "forme-ecommerce-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FORME — Full-Stack Clothing E-Commerce Storefront & Admin Application",
+  "type": "module",
+  "scripts": {
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build:client": "npm --prefix client run build",
+    "build": "npm run build:client",
+    "test:server": "npm --prefix server run test",
+    "test": "npm run test:server && npm run media:validate",
+    "media:validate": "node scripts/media/validate-manifest.mjs",
+    "media:build": "python3 scripts/media/build-catalog-assets.py",
+    "seed:db": "node server/scripts/seed-database.js",
+    "seed:admin": "node server/scripts/bootstrap-admin.js",
+    "seed": "npm run seed:admin && npm run seed:db"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

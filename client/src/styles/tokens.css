@@ -1,0 +1,102 @@
+/* FORME Design Tokens */
+:root {
+  /* Brand Core Palette */
+  --color-warm-ivory: #F5F2EC;
+  --color-sand: #D8CBB8;
+  --color-charcoal: #252525;
+  --color-taupe: #8A7968;
+
+  /* Extended Surface & Backgrounds */
+  --bg-primary: #FDFCFA;
+  --bg-secondary: #F5F2EC;
+  --bg-tertiary: #EBE5DB;
+  --bg-dark: #252525;
+  --bg-card: #FFFFFF;
+  --bg-overlay: rgba(37, 37, 37, 0.45);
+
+  /* Typography Colors */
+  --text-primary: #1F1F1F;
+  --text-secondary: #5A544C;
+  --text-muted: #7E776E;
+  --text-light: #F5F2EC;
+  --text-on-dark: #FFFFFF;
+
+  /* Borders & Dividers */
+  --border-light: #ECE5DC;
+  --border-subtle: #DFD7CC;
+  --border-strong: #8A7968;
+  --border-dark: #333333;
+
+  /* Feedback & Semantic Colors */
+  --color-error: #9A2C2C;
+  --color-error-bg: #FDF2F2;
+  --color-error-border: #F0C4C4;
+  --color-success: #2B6140;
+  --color-success-bg: #F0F7F2;
+  --color-success-border: #BADBC4;
+  --color-warning: #946200;
+  --color-warning-bg: #FEF9EE;
+  --color-warning-border: #F3DCAC;
+
+  /* Focus & Interactive States */
+  --focus-ring: 2px solid var(--color-charcoal);
+  --focus-offset: 3px;
+  --hover-overlay: rgba(0, 0, 0, 0.04);
+  --active-overlay: rgba(0, 0, 0, 0.08);
+
+  /* Typography Scale */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --text-xs: clamp(0.7rem, 0.68rem + 0.1vw, 0.75rem);
+  --text-sm: clamp(0.8rem, 0.78rem + 0.1vw, 0.875rem);
+  --text-base: clamp(0.925rem, 0.9rem + 0.15vw, 1rem);
+  --text-md: clamp(1.05rem, 1rem + 0.25vw, 1.15rem);
+  --text-lg: clamp(1.2rem, 1.12rem + 0.4vw, 1.35rem);
+  --text-xl: clamp(1.4rem, 1.3rem + 0.6vw, 1.75rem);
+  --text-2xl: clamp(1.8rem, 1.6rem + 1vw, 2.35rem);
+  --text-3xl: clamp(2.3rem, 2rem + 1.5vw, 3.25rem);
+  --text-display: clamp(2.8rem, 2.3rem + 2.5vw, 4.5rem);
+
+  /* Spacing Scale */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  /* Layout Widths */
+  --container-max: 1360px;
+  --container-narrow: 840px;
+  --header-height: 72px;
+
+  /* Radii (Restrained, subtle) */
+  --radius-none: 0px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-pill: 9999px;
+
+  /* Shadows (Soft, editorial) */
+  --shadow-subtle: 0 1px 3px rgba(37, 37, 37, 0.05);
+  --shadow-soft: 0 4px 12px rgba(37, 37, 37, 0.06);
+  --shadow-elevated: 0 12px 32px rgba(37, 37, 37, 0.09);
+  --shadow-drawer: -4px 0 24px rgba(37, 37, 37, 0.15);
+
+  /* Motion & Transitions */
+  --transition-fast: 160ms cubic-bezier(0.2, 0, 0.2, 1);
+  --transition-base: 240ms cubic-bezier(0.2, 0, 0.2, 1);
+  --transition-smooth: 360ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms !important;
+    --transition-base: 0ms !important;
+    --transition-smooth: 0ms !important;
+  }
+}

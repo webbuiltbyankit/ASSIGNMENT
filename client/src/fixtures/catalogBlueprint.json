@@ -1,0 +1,515 @@
+{
+  "version": "1.0.0",
+  "brand": "FORME",
+  "currency": "INR",
+  "categories": [
+    { "slug": "t-shirts", "name": "T-Shirts", "description": "Substantial combed organic cotton essentials with enduring collars." },
+    { "slug": "shirts", "name": "Shirts", "description": "Relaxed tailored poplin, washed linen, and structured overshirts." },
+    { "slug": "dresses", "name": "Dresses", "description": "Fluid silhouettes cut from natural linen and lightweight cotton." },
+    { "slug": "trousers", "name": "Trousers", "description": "Pleated and straight-leg trousers in breathable linen blends." },
+    { "slug": "denim", "name": "Denim", "description": "Rigid Japanese and organic cotton denim in clean rinsed washes." },
+    { "slug": "outerwear", "name": "Outerwear", "description": "Unlined chore jackets and transitional twill overcoats." }
+  ],
+  "products": [
+    {
+      "id": "prod_01",
+      "slug": "men-relaxed-linen-shirt-ivory",
+      "name": "Relaxed Linen Camp Shirt",
+      "collection": "men",
+      "category": "shirts",
+      "price": 3890,
+      "featured": true,
+      "active": true,
+      "color": "Warm Ivory",
+      "fabric": "100% French Washed Linen",
+      "description": "An easy-wearing camp collar shirt crafted from breathable French washed linen. Cut with a relaxed straight hem and mother-of-pearl buttons.",
+      "care": "Machine wash cold gentle. Line dry in shade. Warm iron if desired.",
+      "sizes": [
+        { "variantId": "var_01_s", "size": "S", "stock": 8 },
+        { "variantId": "var_01_m", "size": "M", "stock": 14 },
+        { "variantId": "var_01_l", "size": "L", "stock": 10 },
+        { "variantId": "var_01_xl", "size": "XL", "stock": 6 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-01-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-01-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-01-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_02",
+      "slug": "men-heavyweight-pocket-tee-charcoal",
+      "name": "Heavyweight Cotton Pocket Tee",
+      "collection": "men",
+      "category": "t-shirts",
+      "price": 1890,
+      "featured": true,
+      "active": true,
+      "color": "Faded Charcoal",
+      "fabric": "240 GSM Combed Organic Cotton",
+      "description": "Constructed from heavyweight 240 GSM organic cotton with a reinforced rib collar and single chest pocket for structured everyday drape.",
+      "care": "Machine wash cold inside out. Tumble dry low or flat dry.",
+      "sizes": [
+        { "variantId": "var_02_s", "size": "S", "stock": 12 },
+        { "variantId": "var_02_m", "size": "M", "stock": 20 },
+        { "variantId": "var_02_l", "size": "L", "stock": 15 },
+        { "variantId": "var_02_xl", "size": "XL", "stock": 7 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-02-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-02-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-02-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_03",
+      "slug": "men-single-pleat-linen-trouser-sand",
+      "name": "Single Pleat Linen Trouser",
+      "collection": "men",
+      "category": "trousers",
+      "price": 4990,
+      "featured": false,
+      "active": true,
+      "color": "Desert Sand",
+      "fabric": "60% Linen, 40% Cotton Twill",
+      "description": "Tailored with a single forward pleat and gently tapered leg. Features side adjusters and deep slash pockets.",
+      "care": "Dry clean recommended or gentle hand wash cold.",
+      "sizes": [
+        { "variantId": "var_03_s", "size": "S", "stock": 5 },
+        { "variantId": "var_03_m", "size": "M", "stock": 9 },
+        { "variantId": "var_03_l", "size": "L", "stock": 8 },
+        { "variantId": "var_03_xl", "size": "XL", "stock": 3 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-03-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-03-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-03-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_04",
+      "slug": "men-selvedge-straight-jean-indigo",
+      "name": "13oz Selvedge Straight Jean",
+      "collection": "men",
+      "category": "denim",
+      "price": 5490,
+      "featured": true,
+      "active": true,
+      "color": "Raw Indigo",
+      "fabric": "13.5oz Kuroki Selvedge Denim",
+      "description": "Classic mid-rise straight leg jeans crafted from custom ring-spun cotton with redline selvedge ID and copper hardware.",
+      "care": "Wash sparingly inside out in cold water. Hang dry.",
+      "sizes": [
+        { "variantId": "var_04_s", "size": "S", "stock": 6 },
+        { "variantId": "var_04_m", "size": "M", "stock": 11 },
+        { "variantId": "var_04_l", "size": "L", "stock": 10 },
+        { "variantId": "var_04_xl", "size": "XL", "stock": 4 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-04-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-04-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-04-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_05",
+      "slug": "men-canvas-chore-jacket-taupe",
+      "name": "Washed Canvas Chore Jacket",
+      "collection": "men",
+      "category": "outerwear",
+      "price": 6890,
+      "featured": true,
+      "active": true,
+      "color": "Warm Taupe",
+      "fabric": "320 GSM Cotton Canvas",
+      "description": "An architectural workwear staple updated in garment-dyed cotton canvas with triple-needle stitch details and horn buttons.",
+      "care": "Machine wash cold with like colors. Line dry.",
+      "sizes": [
+        { "variantId": "var_05_s", "size": "S", "stock": 4 },
+        { "variantId": "var_05_m", "size": "M", "stock": 8 },
+        { "variantId": "var_05_l", "size": "L", "stock": 7 },
+        { "variantId": "var_05_xl", "size": "XL", "stock": 2 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-05-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-05-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-05-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_06",
+      "slug": "men-ribbed-merino-polo-sand",
+      "name": "Fine Merino Knit Polo",
+      "collection": "men",
+      "category": "shirts",
+      "price": 4490,
+      "featured": false,
+      "active": true,
+      "color": "Pale Sand",
+      "fabric": "100% Extra-Fine Merino Wool",
+      "description": "Knitted from 19.5-micron Australian merino wool with a seamless ribbed collar and three-button placket.",
+      "care": "Hand wash in cool water with wool detergent. Dry flat.",
+      "sizes": [
+        { "variantId": "var_06_s", "size": "S", "stock": 5 },
+        { "variantId": "var_06_m", "size": "M", "stock": 9 },
+        { "variantId": "var_06_l", "size": "L", "stock": 6 },
+        { "variantId": "var_06_xl", "size": "XL", "stock": 3 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-06-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-06-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-06-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_07",
+      "slug": "men-boxy-crewneck-tee-bone",
+      "name": "Boxy Cut Organic Crewneck",
+      "collection": "men",
+      "category": "t-shirts",
+      "price": 1690,
+      "featured": false,
+      "active": true,
+      "color": "Bone White",
+      "fabric": "210 GSM Single Jersey Cotton",
+      "description": "Designed with dropped shoulders and a wider, square torso fit for a relaxed contemporary aesthetic.",
+      "care": "Machine wash cold gentle. Do not bleach.",
+      "sizes": [
+        { "variantId": "var_07_s", "size": "S", "stock": 14 },
+        { "variantId": "var_07_m", "size": "M", "stock": 22 },
+        { "variantId": "var_07_l", "size": "L", "stock": 18 },
+        { "variantId": "var_07_xl", "size": "XL", "stock": 8 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-07-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-07-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-07-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_08",
+      "slug": "men-relaxed-chino-short-charcoal",
+      "name": "Everyday Relaxed Chino Short",
+      "collection": "men",
+      "category": "trousers",
+      "price": 2890,
+      "featured": false,
+      "active": true,
+      "color": "Charcoal Black",
+      "fabric": "100% Crisp Cotton Twill",
+      "description": "A 7-inch inseam tailored casual short with clean slant pockets and interior drawcord waist.",
+      "care": "Machine wash warm. Tumble dry normal.",
+      "sizes": [
+        { "variantId": "var_08_s", "size": "S", "stock": 7 },
+        { "variantId": "var_08_m", "size": "M", "stock": 12 },
+        { "variantId": "var_08_l", "size": "L", "stock": 10 },
+        { "variantId": "var_08_xl", "size": "XL", "stock": 4 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-08-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-08-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-08-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_09",
+      "slug": "men-structured-denim-overshirt-clay",
+      "name": "Structured Denim Overshirt",
+      "collection": "men",
+      "category": "denim",
+      "price": 4890,
+      "featured": false,
+      "active": true,
+      "color": "Sunwashed Clay",
+      "fabric": "11oz Washed Cotton Bull Denim",
+      "description": "Layering piece featuring dual flap chest pockets, durable bar-tacked stress points, and matte metal snap buttons.",
+      "care": "Machine wash cold. Hang dry to maintain shape.",
+      "sizes": [
+        { "variantId": "var_09_s", "size": "S", "stock": 5 },
+        { "variantId": "var_09_m", "size": "M", "stock": 9 },
+        { "variantId": "var_09_l", "size": "L", "stock": 8 },
+        { "variantId": "var_09_xl", "size": "XL", "stock": 3 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-09-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-09-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-09-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_10",
+      "slug": "men-linen-mac-coat-sand",
+      "name": "Minimalist Linen Mac Coat",
+      "collection": "men",
+      "category": "outerwear",
+      "price": 8490,
+      "featured": true,
+      "active": true,
+      "color": "Oatmeal Sand",
+      "fabric": "Heavy Weight Irish Linen Blend",
+      "description": "Unlined single-breasted transitional mac coat with clean storm flap, deep welt pockets, and rear vent.",
+      "care": "Professional dry clean only.",
+      "sizes": [
+        { "variantId": "var_10_s", "size": "S", "stock": 3 },
+        { "variantId": "var_10_m", "size": "M", "stock": 6 },
+        { "variantId": "var_10_l", "size": "L", "stock": 5 },
+        { "variantId": "var_10_xl", "size": "XL", "stock": 2 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-10-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-10-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-10-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_11",
+      "slug": "women-tiered-linen-midi-dress-ivory",
+      "name": "Tiered Linen Midi Dress",
+      "collection": "women",
+      "category": "dresses",
+      "price": 5890,
+      "featured": true,
+      "active": true,
+      "color": "Warm Ivory",
+      "fabric": "100% Washed European Linen",
+      "description": "Effortless A-line midi dress featuring gentle tiered skirt gathering, side seam pockets, and an elegant boat neck.",
+      "care": "Machine wash cold delicate. Hang dry in shade.",
+      "sizes": [
+        { "variantId": "var_11_s", "size": "S", "stock": 9 },
+        { "variantId": "var_11_m", "size": "M", "stock": 14 },
+        { "variantId": "var_11_l", "size": "L", "stock": 10 },
+        { "variantId": "var_11_xl", "size": "XL", "stock": 4 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-11-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-11-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-11-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_12",
+      "slug": "women-crisp-poplin-oversized-shirt-sand",
+      "name": "Crisp Poplin Oversized Shirt",
+      "collection": "women",
+      "category": "shirts",
+      "price": 3690,
+      "featured": true,
+      "active": true,
+      "color": "Alabaster Sand",
+      "fabric": "100% Giza Cotton Poplin",
+      "description": "Tailored with a high collar stand, dropped shoulders, and a clean curved shirttail hem for an effortless modern drape.",
+      "care": "Machine wash warm gentle. Steam or press hot.",
+      "sizes": [
+        { "variantId": "var_12_s", "size": "S", "stock": 11 },
+        { "variantId": "var_12_m", "size": "M", "stock": 16 },
+        { "variantId": "var_12_l", "size": "L", "stock": 12 },
+        { "variantId": "var_12_xl", "size": "XL", "stock": 5 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-12-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-12-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-12-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_13",
+      "slug": "women-wide-leg-pleated-trouser-taupe",
+      "name": "Wide-Leg Pleated Trouser",
+      "collection": "women",
+      "category": "trousers",
+      "price": 4990,
+      "featured": true,
+      "active": true,
+      "color": "Smoked Taupe",
+      "fabric": "Tencel and Linen Blend",
+      "description": "High-waisted silhouette with deep twin front pleats, invisible side zipper, and an elongating wide leg.",
+      "care": "Gentle hand wash cold or eco dry clean.",
+      "sizes": [
+        { "variantId": "var_13_s", "size": "S", "stock": 7 },
+        { "variantId": "var_13_m", "size": "M", "stock": 12 },
+        { "variantId": "var_13_l", "size": "L", "stock": 8 },
+        { "variantId": "var_13_xl", "size": "XL", "stock": 3 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-13-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-13-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-13-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_14",
+      "slug": "women-ribbed-boatneck-tee-charcoal",
+      "name": "Ribbed Cotton Boatneck Tee",
+      "collection": "women",
+      "category": "t-shirts",
+      "price": 1790,
+      "featured": false,
+      "active": true,
+      "color": "Deep Charcoal",
+      "fabric": "95% Organic Cotton, 5% Elastane",
+      "description": "Fitted fine-gauge rib knit featuring an open boat neckline and elbow-length sleeves.",
+      "care": "Machine wash cold gentle. Lay flat to dry.",
+      "sizes": [
+        { "variantId": "var_14_s", "size": "S", "stock": 15 },
+        { "variantId": "var_14_m", "size": "M", "stock": 20 },
+        { "variantId": "var_14_l", "size": "L", "stock": 14 },
+        { "variantId": "var_14_xl", "size": "XL", "stock": 6 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-14-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-14-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-14-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_15",
+      "slug": "women-wrap-linen-shirt-dress-sand",
+      "name": "Wrap Linen Shirt Dress",
+      "collection": "women",
+      "category": "dresses",
+      "price": 6290,
+      "featured": false,
+      "active": true,
+      "color": "Raw Sand",
+      "fabric": "100% Medium-Weight Linen",
+      "description": "Versatile wrap dress with structured collar, self-tie sash at natural waist, and rolled sleeve cuffs.",
+      "care": "Machine wash cold on gentle cycle. Medium iron.",
+      "sizes": [
+        { "variantId": "var_15_s", "size": "S", "stock": 6 },
+        { "variantId": "var_15_m", "size": "M", "stock": 10 },
+        { "variantId": "var_15_l", "size": "L", "stock": 7 },
+        { "variantId": "var_15_xl", "size": "XL", "stock": 3 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-15-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-15-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-15-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_16",
+      "slug": "women-high-rise-straight-jean-ecru",
+      "name": "High-Rise Straight Jean",
+      "collection": "women",
+      "category": "denim",
+      "price": 5290,
+      "featured": false,
+      "active": true,
+      "color": "Natural Ecru",
+      "fabric": "12oz Undyed Cotton Denim",
+      "description": "Crafted from unbleached natural cotton with speckling intact. Flattering high-rise waist and clean ankle-length hem.",
+      "care": "Wash inside out in cold water. Air dry.",
+      "sizes": [
+        { "variantId": "var_16_s", "size": "S", "stock": 8 },
+        { "variantId": "var_16_m", "size": "M", "stock": 13 },
+        { "variantId": "var_16_l", "size": "L", "stock": 9 },
+        { "variantId": "var_16_xl", "size": "XL", "stock": 4 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-16-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-16-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-16-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_17",
+      "slug": "women-boiled-wool-cropped-jacket-charcoal",
+      "name": "Boiled Wool Boxy Jacket",
+      "collection": "women",
+      "category": "outerwear",
+      "price": 7990,
+      "featured": true,
+      "active": true,
+      "color": "Charcoal Melange",
+      "fabric": "100% Pure Boiled Wool",
+      "description": "Sculptural boxy jacket with raw-edge detailing, oversized patch pockets, and concealed magnetic horn closures.",
+      "care": "Specialist dry clean only.",
+      "sizes": [
+        { "variantId": "var_17_s", "size": "S", "stock": 4 },
+        { "variantId": "var_17_m", "size": "M", "stock": 7 },
+        { "variantId": "var_17_l", "size": "L", "stock": 6 },
+        { "variantId": "var_17_xl", "size": "XL", "stock": 2 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-17-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-17-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-17-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_18",
+      "slug": "women-box-cut-linen-tank-ivory",
+      "name": "Structured Linen Tank Top",
+      "collection": "women",
+      "category": "t-shirts",
+      "price": 2190,
+      "featured": false,
+      "active": true,
+      "color": "Ivory White",
+      "fabric": "100% Crisp Linen Weave",
+      "description": "Minimal square silhouette with wide shoulder straps designed to cover undergarments cleanly.",
+      "care": "Machine wash cold gentle. Line dry.",
+      "sizes": [
+        { "variantId": "var_18_s", "size": "S", "stock": 10 },
+        { "variantId": "var_18_m", "size": "M", "stock": 18 },
+        { "variantId": "var_18_l", "size": "L", "stock": 12 },
+        { "variantId": "var_18_xl", "size": "XL", "stock": 5 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-18-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-18-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-18-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_19",
+      "slug": "women-drawstring-linen-pant-bone",
+      "name": "Drawstring Pull-On Linen Pant",
+      "collection": "women",
+      "category": "trousers",
+      "price": 3890,
+      "featured": false,
+      "active": true,
+      "color": "Bone",
+      "fabric": "100% Washed Linen",
+      "description": "Relaxed everyday trouser with an elasticated waistband, herringbone twill drawcord, and deep patch back pockets.",
+      "care": "Machine wash cold. Tumble dry delicate or air dry.",
+      "sizes": [
+        { "variantId": "var_19_s", "size": "S", "stock": 8 },
+        { "variantId": "var_19_m", "size": "M", "stock": 15 },
+        { "variantId": "var_19_l", "size": "L", "stock": 11 },
+        { "variantId": "var_19_xl", "size": "XL", "stock": 4 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-19-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-19-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-19-detail", "role": "gallery", "view": "detail" }
+      }
+    },
+    {
+      "id": "prod_20",
+      "slug": "women-unlined-linen-trench-sand",
+      "name": "Draped Linen Trench Coat",
+      "collection": "women",
+      "category": "outerwear",
+      "price": 8990,
+      "featured": true,
+      "active": true,
+      "color": "Sand Dune",
+      "fabric": "100% Heavy European Linen",
+      "description": "Fluid, ankle-length unlined trench coat with wide storm collar, raglan sleeves, and a long waist belt.",
+      "care": "Specialist dry clean recommended.",
+      "sizes": [
+        { "variantId": "var_20_s", "size": "S", "stock": 3 },
+        { "variantId": "var_20_m", "size": "M", "stock": 6 },
+        { "variantId": "var_20_l", "size": "L", "stock": 5 },
+        { "variantId": "var_20_xl", "size": "XL", "stock": 2 }
+      ],
+      "imageShotPlan": {
+        "front": { "assetId": "forme-prod-20-front", "role": "primary", "view": "front" },
+        "angle": { "assetId": "forme-prod-20-angle", "role": "gallery", "view": "angle" },
+        "detail": { "assetId": "forme-prod-20-detail", "role": "gallery", "view": "detail" }
+      }
+    }
+  ]
+}

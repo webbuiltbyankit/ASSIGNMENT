@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FORME Asset Manifest Schema",
+  "type": "object",
+  "required": ["version", "brand", "fallback", "assets"],
+  "properties": {
+    "version": { "type": "string" },
+    "brand": { "type": "string" },
+    "totalTarget": { "type": "number" },
+    "fallback": { "$ref": "#/definitions/assetEntry" },
+    "assets": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/assetEntry" }
+    }
+  },
+  "definitions": {
+    "assetEntry": {
+      "type": "object",
+      "required": [
+        "assetId",
+        "role",
+        "view",
+        "sourceType",
+        "generator",
+        "prompt",
+        "license",
+        "hash",
+        "dimensions",
+        "localPath"
+      ],
+      "properties": {
+        "assetId": { "type": "string" },
+        "productSlug": { "type": ["string", "null"] },
+        "role": {
+          "type": "string",
+          "enum": ["hero", "campaign", "story", "catalog", "category", "fallback"]
+        },
+        "view": { "type": "string" },
+        "sourceType": { "type": "string" },
+        "generator": { "type": "string" },
+        "prompt": { "type": "string" },
+        "license": { "type": "string" },
+        "hash": { "type": "string" },
+        "dimensions": {
+          "type": "object",
+          "required": ["width", "height", "aspectRatio"],
+          "properties": {
+            "width": { "type": "number" },
+            "height": { "type": "number" },
+            "aspectRatio": { "type": "string" }
+          }
+        },
+        "localPath": { "type": "string" },
+        "cloudinaryPublicId": { "type": ["string", "null"] },
+        "deliveryUrl": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
